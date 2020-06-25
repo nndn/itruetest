@@ -329,6 +329,8 @@ body {
     min-height: 400px;
     background: transparent;
     padding: 0px;
+
+    width: 100%;
 }
 
 #parallax-image1 {

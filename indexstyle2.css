@@ -716,6 +716,11 @@ body {
         max-height: 300px;
     }
 
+    .event {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
 }
 
 

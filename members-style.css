@@ -430,3 +430,16 @@ body {
 
 }
 
+@media screen and (max-width: 500px) {
+
+    .add-cont {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .work {
+        margin-bottom: 20px;
+    }
+
+}
+

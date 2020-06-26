@@ -132,7 +132,9 @@
     }
 
     .main-nav {
-        width: 100%;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 

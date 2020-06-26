@@ -346,3 +346,9 @@ body {
         max-height: 300px;
     }
 }
+
+@media(max-width: 480px){
+    .js__parallax-window {
+        background-attachment: unset !important;
+    }
+}

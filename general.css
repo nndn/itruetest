@@ -353,3 +353,15 @@ body {
         background-attachment: unset !important;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .nav:hover {
+        
+        max-height: 300px;
+    }
+
+    .sub-inc:hover {
+        font-size: medium;
+    }
+
+}

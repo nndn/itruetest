@@ -774,3 +774,21 @@ body {
         grid-template-columns: auto;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .nav:hover {
+        
+        max-height: 300px;
+    }
+
+    .sub-inc:hover {
+        font-size: medium;
+    }
+
+}
+
+@media(max-width: 480px){
+    .js__parallax-window {
+        background-attachment: unset !important;
+    }
+}

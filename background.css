@@ -86,6 +86,8 @@
     border: solid 2px #663a82;
     color: #663a82;
 
+    user-select: none;
+
 }
 
 .main-nav:hover {

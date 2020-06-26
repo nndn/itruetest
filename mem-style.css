@@ -318,6 +318,7 @@ body {
     margin-top: 0px;
 
     background-color: rgba(0, 0, 0, 0.2);
+    max-width: 100%;
 }
 
 .bio {
@@ -451,6 +452,8 @@ body {
         margin-right: 5px;
         padding-left: 10px;
         padding-right: 10px;
+
+        grid-template-columns: 1fr;
     }
 
     .sub-navbar {

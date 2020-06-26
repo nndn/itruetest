@@ -405,3 +405,27 @@ body {
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .header {
+        max-height: 300px;
+    }
+
+    .nav-bar {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav:hover {
+        
+        max-height: 300px;
+    }
+
+    .sub-inc:hover {
+        font-size: medium;
+    }
+
+}

@@ -231,6 +231,8 @@ body {
     padding-top: 20px;
     transition: padding-left .2s ease-in-out;
     cursor: pointer;
+
+    min-width: 350px;
 }
 
 #mem1 {

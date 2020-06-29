@@ -309,8 +309,8 @@ body {
     width: 100%;
 }
 
-.main {
-    min-height: 100%;
+body {
+    min-height: 100vh;
 }
 
 @-moz-keyframes spin {100% {-moz-transform: rotate(360deg);}}

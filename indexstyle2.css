@@ -810,6 +810,10 @@ body {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .parallax-window {
+        data-parallax : scroll;
+    }
 }
 
 
@@ -872,4 +876,5 @@ body {
     .main-nav {
         font-size: 0.5em;
     }
+
 }

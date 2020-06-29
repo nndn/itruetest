@@ -811,11 +811,7 @@ body {
         margin-right: 10px;
     }
 
-    .parallax-window {
-        data-parallax : scroll;
-    }
 }
-
 
 
 .expand {
@@ -828,12 +824,17 @@ body {
     
     display: block;
     margin-left: auto;
+
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
 
     .collapsible {
-        display: none;
+        overflow: hidden;
+        max-height: 0px;
+
+        transition: max-height 1s ease-in-out;
     }
     
     .header {
@@ -845,7 +846,6 @@ body {
         display: block;
         grid-row-start: 2;
         grid-row-end: 3;
-        cursor: pointer;
         user-select: none;
 
         margin-top: 20px;
@@ -854,7 +854,11 @@ body {
     .nav-bar {
         grid-row-start: 3;
         grid-row-end: 4;
-        display: none;
+        
+        overflow: hidden;
+        max-height: 0px;
+
+        transition: max-height 1s ease-in-out;
     }
 
 }

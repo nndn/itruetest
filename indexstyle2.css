@@ -272,12 +272,12 @@ body {
 }
 
 .heading {
-    margin: 30px;
     font-size: 3em;
     margin-left: 20px;
 
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: auto;
 }
 
 .para {

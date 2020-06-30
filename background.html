@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="header.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
     </style>
@@ -17,34 +18,38 @@
             <img class="headerLogo" src="assets/i-True_logo2.png"/>
             <div class="comp-title">International Training and Research in Uro&#8209;oncology and Endourology</div>
         </div>
+        <div class="expand">
+            <img class="expand-icon" id="expand" src="assets/open-menu.png"/>
+        </div>
         <div class="nav-bar">
-            <div class="nav sub-inc selected">About  i&#8209;TRUE
+            <div class="nav sub-inc selected">
+                <div class="clicker" onclick="location.href='index.html';">Home</div>
                 <div class="sub-navbar">
-                    <div class="sub-nav first">Background</div>
-                    <div class="sub-nav">Mission and Vision</div>
-                    <div class="sub-nav">Objectives</div>
+                    <div class="sub-nav first" onclick="location.href='background.html';">Background</div>
+                    <div class="sub-nav" onclick="location.href='mission.html';">Mission and Vision</div>
+                    <div class="sub-nav" onclick="location.href='objectives.html';">Objectives</div>
                 </div>
             </div>
             <div class="nav" onclick="location.href='members.html';">Members</div>
             <div class="nav sub-inc">Research
                 <div class="sub-navbar">
-                    <div class="sub-nav first">Ongoing Projects</div>
-                    <div class="sub-nav">Completed Projects</div>
-                    <div class="sub-nav">Publications</div>
-                    <div class="sub-nav">Research Grants</div>
-                    <div class="sub-nav">Collaboration</div>
+                    <div class="sub-nav first" onclick="location.href='underconstruction.html';">Ongoing Projects</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Completed Projects</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Publications</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Research Grants</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Collaboration</div>
                 </div>
             </div>
             <div class="nav sub-inc">Training
                 <div class="sub-navbar">
-                    <div class="sub-nav first">Webinars</div>
-                    <div class="sub-nav">Educational Projects</div>
-                    <div class="sub-nav">Virtual Conferences</div>
+                    <div class="sub-nav first" onclick="location.href='webinars.html';">Webinars</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Educational Projects</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Virtual Conferences</div>
                 </div>
             </div>
-            <div class="nav">Awards and Honors</div>
-            <div class="nav">Gallery</div>
-            <div class="nav">Contact us</div>
+            <div class="nav" onclick="location.href='underconstruction.html';">Awards and Honors</div>
+            <div class="nav" onclick="location.href='underconstruction.html';">Gallery</div>
+            <div class="nav" onclick="location.href='contact.html';">Contact us</div>
         </div>
     </div>
 
@@ -111,4 +116,5 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax/parallax.js"></script>
+<script src="expand.js"></script>
 </html>

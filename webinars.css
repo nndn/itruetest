@@ -40,13 +40,14 @@
 }
 
 .webinar {
-    background-color: rgba(256,256,256,0.5);
     padding: 10px;
     margin: 10px;
 
     width: fit-content;
 
     max-width: 600px;
+
+    background-image: linear-gradient(rgba(256,256,256,0.5),rgba(256,256,256,1));
 }
 
 .webinar-list {
@@ -62,6 +63,7 @@
 
 .title {
     margin: 5px;
+    margin-top: 10px;
     font-size: 1.3em;
     font-weight: bold;
 
@@ -124,7 +126,17 @@
 }
 
 @media screen and (max-width: 1000px){
+
     .webinar-list {
         grid-template-columns: 1fr;
     }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .content {
+        margin-top: 0px;
+    }
+
 }

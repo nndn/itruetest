@@ -156,6 +156,8 @@
     .main-nav {
         font-size: 0.6em;
         padding: 5px;
+
+        height: fit-content;
     }
 }
 

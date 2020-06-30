@@ -144,10 +144,20 @@
     
     .heading {
         font-size: 1.5em;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .para {
         font-size: 1.2em;
+    }
+
+    .main1 {
+        padding-top: 0px;
+    }
+
+    .content {
+        padding-top: 10px;
     }
 }
 

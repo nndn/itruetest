@@ -1,17 +1,20 @@
+.header {
+    z-index: 2;
+}
+
 .main1 {
     display: grid;
     height: 100%;
     width: 100%;
-    background-color: rgba(256,256,256,0.5);
+    background-color: rgba(256,256,256,0.6);
 }
 
 .content {
-    background-color: rgba(256,256,256,0.5);
     padding: 20px;
-    margin: 20px;
 
     width: fit-content;
-    color: #5c1a85;
+    max-width: 1400px;
+    margin: 20px;
 
     margin-right: auto;
     margin-left: auto;
@@ -42,6 +45,8 @@
     margin: 10px;
 
     width: fit-content;
+
+    max-width: 600px;
 }
 
 .webinar-list {
@@ -53,4 +58,67 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
+}
+
+.title {
+    margin: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+
+    max-width: 550px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-rows: auto auto;
+
+    max-width: 130px;
+    margin-left: auto;
+
+    margin-bottom: 10px;
+}
+
+#calendar-icon {
+    max-width: 50px;
+    max-height: 50px;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.date {
+    margin-left: auto;
+    margin-right: 5px;
+    font-weight: bolder;
+
+    font-size: 1.4em;
+}
+
+.month {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    margin-left: auto;
+    margin-right: 5px;
+
+    line-height: 50%;
+    margin-bottom: 10px;
+}
+
+.year {
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    transform: rotate(-90deg);
+
+    font-weight: bold;
+    line-height: 200%;
+
+    z-index: 1;
 }

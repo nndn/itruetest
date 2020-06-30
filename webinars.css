@@ -5,17 +5,52 @@
     background-color: rgba(256,256,256,0.5);
 }
 
+.content {
+    background-color: rgba(256,256,256,0.5);
+    padding: 20px;
+    margin: 20px;
+
+    width: fit-content;
+    color: #5c1a85;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .heading {
     font-size: 2.5em;
-    margin: 20px;
     margin-right: auto;
 }
 
 .intro{
     font-size: 1.5em;
     max-width: 1100px;
+    text-align: justify;
 
-    margin: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-right: auto;
+}
+
+.poster {
+    max-width: 600px;
+    width: 100%;
+}
+
+.webinar {
+    background-color: rgba(256,256,256,0.5);
+    padding: 10px;
+    margin: 10px;
+
+    width: fit-content;
+}
+
+.webinar-list {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    max-width: 1400px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
 }

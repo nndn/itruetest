@@ -143,4 +143,12 @@
         margin-top: 0px;
     }
 
+    .title {
+        font-size: 1em;
+    }
+
+    .intro {
+        font-size: 1.2em;
+    }
+
 }

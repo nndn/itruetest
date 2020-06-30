@@ -835,7 +835,7 @@ body {
         overflow: hidden;
         max-height: 0px;
 
-        transition: max-height 1s ease-in-out;
+        transition: max-height .5s ease-in-out;
         transition-delay: 0s;
     }
     
@@ -860,7 +860,7 @@ body {
         overflow: hidden;
         max-height: 0px;
 
-        transition: max-height 1s ease-in-out;
+        transition: max-height .5s ease-in-out;
     }
 
 }

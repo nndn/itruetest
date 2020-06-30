@@ -125,10 +125,6 @@
     z-index: 1;
 }
 
-.player {
-    display: none;
-}
-
 @media screen and (max-width: 1000px){
 
     .webinar-list {
@@ -138,6 +134,10 @@
 }
 
 @media screen and (max-width: 500px){
+
+    .main1 {
+        background-color: rgba(256,256,256,0.8);
+    }
 
     .content {
         margin-top: 0px;

@@ -47,23 +47,3 @@
     }
 
 }
-
-@media screen and (max-width: 500px) {
-
-    .main-navigations {
-        grid-template-columns: 2fr 2fr 4fr 2fr;
-    }
-
-    .main-nav {
-        font-size: 0.6em;
-        padding: 5px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-
-    .main-nav {
-        font-size: 0.55em;
-    }
-
-}

@@ -144,4 +144,43 @@
     .para {
         font-size: 1.2em;
     }
+
+    .main-navigations {
+        width: 100%;
+    }
+
+    .main-nav {
+        display: block;
+        max-width: 100%;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .main-navigations {
+        grid-template-columns: 2fr 2fr 4fr 2fr;
+    }
+
+    .main-nav {
+        font-size: 0.6em;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .main-nav {
+        font-size: 0.55em;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .main-navigations {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
 }

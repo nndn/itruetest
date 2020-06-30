@@ -884,3 +884,20 @@ body {
     }
 
 }
+
+@media screen and (max-width: 420px) {
+
+    .main-nav {
+        font-size: 0.55em;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .main-navigations {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}

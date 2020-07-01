@@ -48,6 +48,9 @@
     max-width: 600px;
 
     background-image: linear-gradient(rgba(256,256,256,0.5),rgba(256,256,256,1));
+
+    cursor: pointer;
+    user-select: none;
 }
 
 .webinar-list {

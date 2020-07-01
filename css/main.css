@@ -329,7 +329,7 @@ textarea.input1 + .shadow-input1 {
   }
 
   .contact1-form {
-    width: 44%;
+    width: 100%;
   }
 }
 
@@ -343,7 +343,7 @@ textarea.input1 + .shadow-input1 {
   }
 
   .contact1-form {
-    width: 55%;
+    width: 100%;
   }
 }
 

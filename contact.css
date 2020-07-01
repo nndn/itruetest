@@ -83,6 +83,7 @@ form {
     
     .main1{
         grid-template-columns: 1fr;
+        background-color: rgba(256, 256, 256, 0.5);
     }
 
     .contacts {

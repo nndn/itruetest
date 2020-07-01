@@ -5,6 +5,8 @@
     color: white;
     min-height: 100vh;
 
+    background-color: rgba(98, 51, 128, 0.3);
+
     padding-top: 20px;
 }
 
@@ -13,7 +15,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    background-color: rgba(80, 21, 117, 0.4);
+    background-color: rgba(98, 51, 128, 0.3);
     padding: 20px;
 
     margin-bottom: 20px;
@@ -21,22 +23,22 @@
 
 .head {
     display: grid;
-    grid-template-columns: auto auto;
-
     margin: 10px;
 }
 
 .web {
     font-size: 3em;
     font-weight: bold;
+
+    width: fit-content;
+    height: fit-content;
+
 }
 
 .title {
     font-size: 2em;
     width: fit-content;
     height: fit-content;
-
-    margin: auto;
 
     padding-left: 20px;
 
@@ -45,6 +47,18 @@
 
 .poster {
 
+    display: block;
+    margin: auto;
+
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
+    padding: 5px;
+
+    border: solid 2px white;
+}
+
+.talk {
+    display: grid;
+
+    grid-template-columns: auto auto;
 }

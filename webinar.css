@@ -1,3 +1,7 @@
+.header {
+    z-index: 2;
+}
+
 .main1 {
     display: grid;
     height: 100%;
@@ -23,7 +27,7 @@
 
 .head {
     display: grid;
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .web {
@@ -51,14 +55,46 @@
     margin: auto;
 
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
     padding: 5px;
 
     border: solid 2px white;
 }
 
+.talk-text {
+
+    font-style: italic;
+}
+
+.talks {
+    width: 100%;
+}
+
+.talk-video{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+iframe {
+    z-index: 1;
+    position: absolute;
+}
+
 .talk {
     display: grid;
 
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 2fr;
+    
+    padding: 10px;
+    margin: 5px;
+
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+@media screen and (max-width: 1000px){
+
+    .talk {
+        grid-template-columns: 1fr;
+    }
 }

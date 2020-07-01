@@ -156,10 +156,10 @@
 .webinar:hover {
 
     background: linear-gradient(rgba(256,256,256,0.2),rgba(256,256,256,1));
-    background: linear-gradient(45deg,#ff03da,#0185ea);
+    background: linear-gradient(45deg,#ff03da,#0185ea,#ff03da,#0185ea);
 
-    background-size: 400% 100%;
-    animation: backhover 2s linear infinite;
+    background-size: 1000% 100%;
+    animation: backhover 5s linear infinite;
 
     animation-direction: alternate;
 

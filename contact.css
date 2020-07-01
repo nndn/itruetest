@@ -103,4 +103,8 @@ form {
     .map-cont {
         height: 400px;
     }
+
+    .contact1-form-title {
+        color: black;
+    }
 }

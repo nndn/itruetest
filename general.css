@@ -353,12 +353,6 @@ body {
 
 }
 
-@media(max-width: 480px){
-    .js__parallax-window {
-        background-attachment: unset !important;
-    }
-}
-
 @media screen and (max-width: 500px) {
     .nav:hover {
         

@@ -55,7 +55,6 @@
     margin: auto;
 
     width: 100%;
-    max-width: 1000px;
     padding: 5px;
 
     border: solid 2px white;
@@ -81,9 +80,9 @@
     font-size: 1.5em;
     font-style: italic;
 
-    margin-left: 20px;
+    margin-left: 60px;
 
-    max-width: 500px;
+    max-width: 600px;
 }
 
 

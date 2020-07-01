@@ -126,4 +126,28 @@ iframe {
     .talk {
         grid-template-columns: 1fr;
     }
+
+    .main1 {
+        padding-top: 0px;
+    }
+
+    .content {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .web {
+        font-size: 2em;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .talk-info {
+        margin-left: 0px;
+        font-size: 1em;
+        margin-top: 10px;
+        text-align: justify;
+    }
 }

@@ -62,18 +62,30 @@
 }
 
 .talk-text {
-
     font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .talks {
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .talk-video{
     position: relative;
     padding-bottom: 56.25%;
 }
+
+.talk-info {
+    font-size: 1.5em;
+    font-style: italic;
+
+    margin-left: 20px;
+
+    max-width: 500px;
+}
+
 
 iframe {
     z-index: 1;
@@ -83,13 +95,31 @@ iframe {
 .talk {
     display: grid;
 
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     
     padding: 10px;
     margin: 5px;
 
-    border-top: solid 2px white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     border-bottom: solid 2px white;
+}
+
+.first {
+    border-top: solid 2px white;
+}
+
+.poster-text {
+
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1000px){

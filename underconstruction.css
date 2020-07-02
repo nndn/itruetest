@@ -419,6 +419,14 @@ body {
         grid-template-columns: 2fr 1fr 1fr 1fr;
     }
 
+    .footer {
+
+        display: block;
+        height: fit-content;
+        margin-top: auto;
+        margin-bottom: 0px;
+    }
+
 }
 
 

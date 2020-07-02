@@ -82,6 +82,7 @@ form {
 @media screen and (max-width: 1300px){
     
     .main1{
+        padding-top: 0px;
         grid-template-columns: 1fr;
         background-color: rgba(256, 256, 256, 0.5);
     }

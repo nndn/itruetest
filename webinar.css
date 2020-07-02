@@ -153,4 +153,8 @@ iframe {
         margin-top: 10px;
         text-align: justify;
     }
+
+    .talks {
+        margin-bottom: 30px;
+    }
 }

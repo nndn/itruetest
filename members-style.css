@@ -470,3 +470,7 @@ body {
         background-attachment: unset !important;
     }
 }
+
+.headerLogo {
+    min-width: 100px;
+}

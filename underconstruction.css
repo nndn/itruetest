@@ -438,3 +438,7 @@ body {
     cursor: pointer;
     user-select: none;
 }
+
+.headerLogo {
+    min-width: 100px;
+}

@@ -364,3 +364,7 @@ body {
     }
 
 }
+
+.headerLogo {
+    min-width: 100px;
+}

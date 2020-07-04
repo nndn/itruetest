@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #663a82;
+    background-color: #195190FF;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #663a82;
+    background-color: #195190FF;
     color: white;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: #663a82;
+    background-color: #195190FF;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -126,7 +126,7 @@ body {
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    transition: background-color .8s ease-in-out;
+    transition: background-color .2s ease-in-out;
     border-top: solid 1px gray;
     font-size: smaller;
 }
@@ -159,22 +159,23 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: rgba(0, 0, 0, 0.7);
+    background-color: #A2A2A1FF;
     max-height: 400px;
     color: white;
 }
 
 .sub-nav:hover {
-    color: orangered;
+    color: #A2A2A1FF;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .selected {
     text-decoration: underline;
-    color: orangered;
+    color: #A2A2A1FF;
 }
 
 .nav:hover {
-    color: orangered;
+    color: #A2A2A1FF;
 }
 
 .sub-inc {
@@ -182,7 +183,7 @@ body {
 }
 
 .sub-inc:hover {
-    color: orangered;
+    color: #A2A2A1FF;
     border-radius: 25px;
     font-size: larger;
 }
@@ -313,7 +314,7 @@ body {
 }
 
 .footer {
-    background-color: #663a82;
+    background-color: #195190FF;
     grid-row-start: 4;
     grid-row-end: 5;
 }
@@ -345,7 +346,7 @@ body {
     padding-left: auto;
     padding-right: auto;
     max-width: 100%;
-    background-color: #663a82;
+    background-color: #195190FF;
     color: white;
     text-align: center;
 }

@@ -8,9 +8,9 @@
     width: 100%;
     color: #5F4B8BFF;
     color: white;
-    background-color: rgba(230,154,141,0.5);
     background-color: rgba(95,75,139,0.7);
     background-color: rgba(256,256,256,0.2);
+    background-color: rgba(230,154,141,0.7);
     color: white;
 }
 
@@ -23,9 +23,6 @@
 
     margin-right: auto;
     margin-left: auto;
-
-    background-color: #E69A8DAA;
-    background-color: rgba(95,75,139,0.7);
 }
 
 .heading {

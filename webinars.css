@@ -6,7 +6,9 @@
     display: grid;
     height: 100%;
     width: 100%;
-    background-color: rgba(256,256,256,0.7);
+    color: #5F4B8BFF;
+
+    backdrop-filter: blur(4px);
 }
 
 .content {

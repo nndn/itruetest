@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #663a82;
+    background-color: #E69A8DFF;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #663a82;
+    background-color: #E69A8DFF;
     color: white;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: #663a82;
+    background-color: #E69A8DFF;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -71,7 +71,6 @@ body {
     margin: auto;
     margin-left: 20px;
     padding-left: 10px;
-    color: white;
     border-left:solid 3px #f54952;
     max-width: 200px;
 }
@@ -159,22 +158,24 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: rgba(0, 0, 0, 0.7);
+    background-color: #5F4B8BFF;
     max-height: 400px;
     color: white;
 }
 
 .sub-nav:hover {
-    color: orangered;
+    color: #5F4B8BFF;
+    color: white;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .selected {
     text-decoration: underline;
-    color: orangered;
+    color: #5F4B8BFF;
 }
 
 .nav:hover {
-    color: orangered;
+    color: #5F4B8BFF;
 }
 
 .sub-inc {
@@ -182,7 +183,7 @@ body {
 }
 
 .sub-inc:hover {
-    color: orangered;
+    color: #5F4B8BFF;
     border-radius: 25px;
     font-size: larger;
 }
@@ -212,7 +213,7 @@ body {
 }
 
 .footer {
-    background-color: #663a82;
+    background-color: #E69A8DFF;
     grid-row-start: 4;
     grid-row-end: 5;
 }

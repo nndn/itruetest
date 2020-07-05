@@ -55,7 +55,7 @@
 
     max-width: 500px;
 
-    background-color: #195190FF;
+    background-color: #00bffeff;
     cursor: pointer;
     user-select: none;
 }
@@ -147,10 +147,6 @@
 
 @media screen and (max-width: 500px){
 
-    .main1 {
-        
-    }
-
     .content {
         margin-top: 0px;
     }
@@ -184,6 +180,30 @@
 }
 
 @keyframes backhover{
+
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+.webinar{
+
+    background: linear-gradient(rgba(256,256,256,0.2),rgba(256,256,256,1));
+    background: linear-gradient(45deg,#00bffe33,#00bffeff,#ffffff44,#00bffe55);
+
+    background-size: 1000% 100%;
+    animation: backhover2 2s linear infinite;
+
+    animation-direction: alternate-reverse;
+
+    color: white;
+}
+
+@keyframes backhover2{
 
     0% {
         background-position: 0%;

@@ -437,6 +437,22 @@ body {
 
 @media screen and (max-width: 500px) {
 
+    .name {
+        font-size: 1.2em;
+    }
+
+    .qualification {
+        font-size: 0.8em;
+    }
+
+    .post {
+        font-size: 1em;
+    }
+
+    .work {
+        font-size: 0.7em;
+    }
+
     .add-cont {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;

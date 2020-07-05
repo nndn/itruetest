@@ -165,6 +165,11 @@
         font-size: 1.2em;
     }
 
+    .webinar {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
 }
 
 .webinar:hover {

@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #663a82;
+    background-color: #00bffe;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #663a82;
+    background-color: #00bffe;
     color: white;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: #663a82;
+    background-color: #00bffe;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -120,7 +120,7 @@ body {
 
 .selected {
     text-decoration: underline;
-    color: orangered;
+    color: white;
 }
 
 .sub-nav {
@@ -130,7 +130,7 @@ body {
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    transition: background-color .8s ease-in-out;
+    transition: background-color .2s ease-in-out;
     border-top: solid 1px gray;
     font-size: smaller;
 }
@@ -162,14 +162,14 @@ body {
     pointer-events: all;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #A8D5BAFF;
     max-height: 400px;
     color: white;
 }
 
 .sub-nav:hover {
-    color: orangered;
-    background-color: rgba(0, 0, 0, 0.3);
+    color: #A8D5BAFF;
+    background-color: white;
 }
 
 .sub-inc {
@@ -177,13 +177,18 @@ body {
 }
 
 .sub-inc:hover {
-    color: orangered;
+    color: white;
     border-radius: 25px;
     font-size: larger;
 }
 
 .nav:hover {
-    color: orangered;
+    color: white;
+}
+
+.current {
+    background-color: white;
+    color: #A8D5BAFF;
 }
 
 #facebook1 {
@@ -261,7 +266,7 @@ body {
 }
 
 .footer {
-    background-color: #663a82;
+    background-color: #00bffe;
     grid-row-start: 4;
     grid-row-end: 5;
 }

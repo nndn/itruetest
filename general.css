@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #195190FF;
+    background-color: #00bffe;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #195190FF;
+    background-color: #00bffe;
     color: white;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: #195190FF;
+    background-color: #00bffe;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -157,19 +157,24 @@ body {
     pointer-events: all;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #A2A2A1FF;
+    background-color: #A8D5BAFF;
     max-height: 400px;
     color: white;
 }
 
+.current {
+    background-color: white;
+    color: #A8D5BAFF;
+}
+
 .sub-nav:hover {
-    color: #A2A2A1FF;
+    color: #A8D5BAFF;
     background-color: rgba(256, 256, 256, 1);
 }
 
 .selected {
     text-decoration: underline;
-    color: #A2A2A1FF;
+    color: white;
 }
 
 .nav:hover {
@@ -211,7 +216,7 @@ body {
 }
 
 .footer {
-    background-color: #195190FF;
+    background-color: #00bffe;
     grid-row-start: 4;
     grid-row-end: 5;
 }

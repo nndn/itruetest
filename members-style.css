@@ -3,6 +3,7 @@ body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
     background-color: #00bffe;
+    
 }
 
 .header {

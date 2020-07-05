@@ -6,6 +6,7 @@
     <title>i-TRUE home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="indexstyle2.css">
+    <link rel="stylesheet" href="header.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
     </style>
@@ -22,12 +23,18 @@
         <div class="nav-bar">
             <div class="nav sub-inc selected">Home
                 <div class="sub-navbar">
-                    <div class="sub-nav first" onclick="location.href='background.html';">Background</div>
+                    <div class="sub-nav first current">About</div>
+                    <div class="sub-nav" onclick="location.href='background.html';">Background</div>
                     <div class="sub-nav" onclick="location.href='mission.html';">Mission and Vision</div>
                     <div class="sub-nav" onclick="location.href='objectives.html';">Objectives</div>
                 </div>
             </div>
-            <div class="nav" onclick="location.href='members.html';">Members</div>
+            <div class="nav sub-inc">Members
+                <div class="sub-navbar">
+                    <div class="sub-nav first" onclick="location.href='members.html';">i&#8209;TRUE Members</div>
+                    <div class="sub-nav" onclick="location.href='underconstruction.html';">Affiliate Members</div>
+                </div>
+            </div>
             <div class="nav sub-inc">Research
                 <div class="sub-navbar">
                     <div class="sub-nav first" onclick="location.href='underconstruction.html';">Ongoing Projects</div>

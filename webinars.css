@@ -11,7 +11,7 @@
     background-color: rgba(95,75,139,0.7);
     background-color: rgba(256,256,256,0.2);
     background-color: rgba(230,154,141,0.7);
-    background-color: #00bffe44;
+    background-color: #00bffe22;
     color: white;
 }
 
@@ -24,6 +24,8 @@
 
     margin-right: auto;
     margin-left: auto;
+
+    color: #00536e;
 }
 
 .heading {
@@ -137,6 +139,10 @@
     z-index: 1;
 }
 
+.pattern {
+    width: 100%;
+}
+
 @media screen and (max-width: 1000px){
 
     .webinar-list {
@@ -193,10 +199,10 @@
 .webinar{
 
     background: linear-gradient(rgba(256,256,256,0.2),rgba(256,256,256,1));
-    background: linear-gradient(45deg,#00bffe33,#00bffeff,#ffffff44,#00bffe55);
+    background: linear-gradient(45deg,#00bffe33,rgba(0, 121, 161, 0.521),#00bffe55,#ffffff44);
 
     background-size: 1000% 100%;
-    animation: backhover2 2s linear infinite;
+    animation: backhover2 4s linear infinite;
 
     animation-direction: alternate-reverse;
 

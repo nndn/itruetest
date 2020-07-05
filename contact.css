@@ -9,6 +9,9 @@
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 
+    background-color: #00bffe00;
+    background-color: #00000022;
+
 }
 
 form {
@@ -17,7 +20,7 @@ form {
 }
 
 .contact1-form-title {
-    color: gray;
+    color: rgb(235, 235, 235);
 }
 
 .form-cont {
@@ -30,6 +33,7 @@ form {
 
     padding: 30px;
     background-color: rgba(256, 256, 256, 0.5);
+    background-color: #88888893;
 
     margin: auto;
     margin-top: 0px;
@@ -44,7 +48,7 @@ form {
 }
 
 .address-cont {
-    color: black;
+    color: rgb(245, 245, 245);
 
     margin-left: 10%;
 
@@ -56,6 +60,7 @@ form {
     margin-top: 0px;
 
     background-color: rgba(256, 256, 256, 0.5);
+    background-color: #88888893;
 }
 
 .contacts{
@@ -65,7 +70,7 @@ form {
 
 .head {
     width: fit-content;
-    margin: auto;
+    margin-right: auto;
 
     font-size: 2em;
     font-weight: bold;
@@ -75,8 +80,11 @@ form {
 
 .address {
     width: fit-content;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: auto;
     font-style: italic;
+
+    max-width: 400px;
 }
 
 @media screen and (max-width: 1300px){
@@ -84,7 +92,6 @@ form {
     .main1{
         padding-top: 0px;
         grid-template-columns: 1fr;
-        background-color: rgba(256, 256, 256, 0.5);
         padding-bottom: 30px;
     }
 
@@ -106,7 +113,4 @@ form {
         height: 400px;
     }
 
-    .contact1-form-title {
-        color: black;
-    }
 }

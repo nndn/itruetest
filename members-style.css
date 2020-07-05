@@ -325,6 +325,7 @@ body {
     background: transparent;
     margin-top: 0px;
     background-color: rgba(256, 256, 256, 0.3);
+    background-color:  rgba(139,190,232,0.5);
 }
 
 .parallax-window {

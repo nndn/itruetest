@@ -320,7 +320,7 @@ body {
     font-weight: bold;
     margin-left: 0px;
     font-size: 1.25em;
-    color: #663a82;
+    color: rgb(0, 107, 143);
 }
 
 .footer {
@@ -334,8 +334,7 @@ body {
     grid-row-end: 4;
     background: transparent;
     margin-top: 0px;
-    background-color: rgba(256, 256, 256, 0.3);
-    background-color:  rgba(139,190,232,0.5);
+    background-color:  rgba(139,190,232,0);
 }
 
 .parallax-window {

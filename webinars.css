@@ -11,6 +11,7 @@
     background-color: rgba(95,75,139,0.7);
     background-color: rgba(256,256,256,0.2);
     background-color: rgba(230,154,141,0.7);
+    background-color: #A2A2A1AA;
     color: white;
 }
 
@@ -54,8 +55,9 @@
 
     max-width: 500px;
 
-    background-image: linear-gradient(rgba(256,256,256,0.5),rgba(256,256,256,1));
-    background-image: linear-gradient(rgba(95,75,139,1),rgba(95,75,139,1));
+    /background-image: linear-gradient(rgba(256,256,256,0.5),rgba(256,256,256,1));
+    /background-image: linear-gradient(rgba(95,75,139,1),rgba(95,75,139,1));
+    background-color: #195190FF;
     cursor: pointer;
     user-select: none;
 }

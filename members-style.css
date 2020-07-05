@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #8BBEE8FF;
+    background-color: #00bffe;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #8BBEE8FF;
+    background-color: #00bffe;
     color: white;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
     width: 100%;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: #8BBEE8FF;
+    background-color: #00bffe;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -314,7 +314,7 @@ body {
 }
 
 .footer {
-    background-color: #8BBEE8FF;
+    background-color: #00bffe;
     grid-row-start: 4;
     grid-row-end: 5;
 }
@@ -347,7 +347,7 @@ body {
     padding-left: auto;
     padding-right: auto;
     max-width: 100%;
-    background-color: #8BBEE8FF;
+    background-color: #00bffe;
     color: white;
     text-align: center;
 }

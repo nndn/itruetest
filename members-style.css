@@ -119,6 +119,15 @@ body {
     user-select: none;
 }
 
+.nav:hover {
+    text-decoration: underline;
+}
+
+.current {
+    background-color: white;
+    color: #A8D5BAFF;
+}
+
 .sub-nav {
     cursor: pointer;
     padding: auto;

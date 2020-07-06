@@ -120,20 +120,38 @@ form {
     color: white;
 }
 
+@media screen and (max-width:500px){
+    
+    .header {
+        padding: 0px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+    .nav-bar {
+        background-color: #34495e;
+    }
+}
+
 .collapsible {
-    background-color: black;
+    background-color: #34495e;
 }
 
 .nav:hover .sub-navbar {
-    background-color: #6c5b7c;
+    background-color: #f3f3f3;
 }
 
 .footer {
-    background-color: #f1c401;
+    background-color: #34495e;
 }
 
 body {
     background-color: lightgray;
+}
+
+.expand {
+    background-color: #34495e;
+    margin-bottom: 0px;
 }
 
 .buttons {

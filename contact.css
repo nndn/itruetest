@@ -152,6 +152,13 @@ body {
 .expand {
     background-color: #34495e;
     margin-bottom: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.expand-icon {
+    margin-right: 5px;
 }
 
 .buttons {

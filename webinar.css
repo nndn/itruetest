@@ -2,13 +2,14 @@
     z-index: 2;
 }
 
+
 .main1 {
     display: grid;
     height: 100%;
     width: 100%;
     color: white;
     min-height: 100vh;
-    background-color: #00bffe33;
+    background-color: #34495e33;
 
     padding-top: 20px;
 }
@@ -18,7 +19,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    background-color: #00bffe44;
+    background-color: #34495e44;
     padding: 20px;
 
     margin-bottom: 20px;

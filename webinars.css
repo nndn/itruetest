@@ -11,7 +11,7 @@
     background-color: rgba(95,75,139,0.7);
     background-color: rgba(256,256,256,0.2);
     background-color: rgba(230,154,141,0.7);
-    background-color: #00bffe22;
+    background-color: #3498db77;
     color: white;
 }
 
@@ -25,7 +25,7 @@
     margin-right: auto;
     margin-left: auto;
 
-    color: #00536e;
+    color: #34495e;
 }
 
 .heading {
@@ -199,7 +199,7 @@
 .webinar{
 
     background: linear-gradient(rgba(256,256,256,0.2),rgba(256,256,256,1));
-    background: linear-gradient(45deg,#00bffe33,rgba(0, 121, 161, 0.521),#00bffe55,#ffffff44);
+    background: linear-gradient(45deg,#34495e,rgba(0, 121, 161, 0.521),#34495e,#ffffff44);
 
     background-size: 1000% 100%;
     animation: backhover2 4s linear infinite;

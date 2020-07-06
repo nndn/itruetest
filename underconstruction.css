@@ -223,7 +223,7 @@ body {
     background: transparent;
     margin-top: 0px;
     background-color: rgba(256, 256, 256, 0.3);
-    background-color: #00bffe;
+    background-color: #34495e;
 }
 
 .parallax-window {
@@ -303,7 +303,7 @@ body {
 
 .background-img {
     background-color: gray;
-    background-color: #00bffe;
+    background-color: #88888893;
     width: 100%;
 
     margin-top: auto;

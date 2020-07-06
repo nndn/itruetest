@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #00bffe;
+    background-color: #34495e;
 }
 
 .header {
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #00bffe;
+    background-color: #34495e;
     color: white;
     width: 100%;
 }
@@ -261,7 +261,7 @@ body {
 }
 
 .content {
-    background-color: #34495e88;
+    background-color: #34495eaa;
     padding: 10px;
     padding-right: 20px;
     padding-left: 10px;

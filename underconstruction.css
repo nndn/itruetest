@@ -117,6 +117,9 @@ body {
     padding-top: auto;
     padding-bottom: auto;
     align-content: center;
+
+    cursor: pointer;
+    user-select: none;
 }
 
 .sub-nav {

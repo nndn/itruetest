@@ -11,7 +11,7 @@
     background-color: rgba(95,75,139,0.7);
     background-color: rgba(256,256,256,0.2);
     background-color: rgba(230,154,141,0.7);
-    background-color: #3498db77;
+    background-color: #34495e77;
     color: white;
 }
 
@@ -26,6 +26,7 @@
     margin-left: auto;
 
     color: #34495e;
+    color: white;
 }
 
 .heading {

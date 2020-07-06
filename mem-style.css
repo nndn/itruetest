@@ -427,6 +427,9 @@ body {
     min-width: 360px;
 }
 
+.header {
+    z-index: 2;
+}
 
 @media screen and (max-width: 1300px){
 

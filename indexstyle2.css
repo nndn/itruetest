@@ -153,6 +153,7 @@ body {
     transition: max-height 1s linear;
 }
 
+
 .nav:hover .sub-navbar{
     opacity: 1;
     pointer-events: all;

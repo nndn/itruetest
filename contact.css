@@ -116,12 +116,12 @@ form {
 }
 
 .header {
-    background-color: #f8b595;
+    background-color: #f1c401;
     color: white;
 }
 
 .collapsible {
-    background-color: #f8b595;
+    background-color: black;
 }
 
 .nav:hover .sub-navbar {
@@ -129,7 +129,7 @@ form {
 }
 
 .footer {
-    background-color: #f8b595;
+    background-color: #f1c401;
 }
 
 body {
@@ -153,6 +153,10 @@ body {
 
 }
 
+.hide {
+    display: none;
+}
+
 .button {
     background-color: gray;
     border: solid 2px black;
@@ -166,4 +170,8 @@ body {
 input {
     font-size: 0.8em;
     min-width: 100px;
+}
+
+.collapsible {
+
 }

@@ -20,3 +20,7 @@ $('.expand-icon').on('click',function(){
     }
     
 });
+
+$(window).on('load',function(){
+    console.log('loaded');
+});

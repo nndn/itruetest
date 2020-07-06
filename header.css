@@ -70,6 +70,7 @@
         background-color: #34495e;
         grid-template-columns: 1.5fr 1fr 1fr 1fr;
     }
+
 }
 
 .collapsible {
@@ -115,3 +116,4 @@ body {
 .hide {
     display: none;
 }
+

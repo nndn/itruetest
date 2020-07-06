@@ -21,9 +21,7 @@ $('.expand-icon').on('click',function(){
     
 });
 
-$('body').addClass('hide');
-
 $(window).on('load',function(){
     console.log('loaded');
-    $('body').removeClass('hide');
+    $('.loading').addClass('hidden');
 });

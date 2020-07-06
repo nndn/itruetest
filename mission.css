@@ -21,7 +21,7 @@
 
     text-align: justify;
     text-justify: distribute;
-    max-width: 700px;
+    max-width: 1000px;
     width: 100%;
 
     padding: auto;
@@ -111,7 +111,7 @@
 
 .row1 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     margin-bottom: 30px;
 
     width: 100%;

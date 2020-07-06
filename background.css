@@ -2,6 +2,8 @@
     padding-top: 30px;
     padding-bottom: 30px;
     color: white;
+    background-color: rgba(256,256,256,0.5);
+    background-color: rgba(199, 199, 199, 0.726);
 }
 
 .content {
@@ -13,7 +15,7 @@
     padding-top: 20px;
 
     background-color: rgba(256,256,256,0.5);
-    background-color: #00759c55;
+    background-color: #34495ebb;
 }
 
 .para {
@@ -47,8 +49,8 @@
     text-align: center;
     border-radius: 50px;
     
-    background-color: white;
-    color: #00bffe;
+    background-color: #f1c401;
+    color: white;
 
     margin-bottom: 30px;
     margin-top: 30px;
@@ -84,21 +86,21 @@
     margin-top: 5px;
     margin-bottom: 5px;
 
-    border: solid 2px white;
-    color: white;
+    border: solid 2px #34495e;
+    color: #34495e;
 
     user-select: none;
 
 }
 
 .main-nav:hover {
-    background-color: white;
-    color: #00bffe;
+    background-color:#34495e;
+    color: white;
 }
 
 .open {
-    background-color: white;
-    color: #00bffe;
+    background-color:#34495e;
+    color: white;
 }
 
 .images {

@@ -13,7 +13,6 @@
 }
 
 
-
 @media screen and (max-width: 500px) {
 
     .collapsible {
@@ -48,4 +47,71 @@
         transition: max-height .5s ease-in-out;
     }
 
+}
+
+
+.header {
+    background-color: #f1c401;
+}
+
+@media screen and (max-width:500px){
+    
+    .header {
+        padding: 0px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+    .comp-title {
+        color: #34495e;
+    }
+
+    .nav-bar {
+        background-color: #34495e;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    }
+}
+
+.collapsible {
+    background-color: #34495e;
+}
+
+.nav:hover .sub-navbar {
+    background-color: #3498db;
+}
+
+.footer {
+    background-color: #34495e;
+}
+
+.copyright {
+    background-color: #34495e;
+}
+
+body {
+    background-color: #34495e;
+}
+
+.expand {
+    background-color: #34495e;
+    margin-bottom: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.expand-icon {
+    margin-right: 5px;
+}
+
+.sub-nav:hover {
+    color: #34495e;
+}
+
+.current {
+    color: #34495e;
+}
+
+.hide {
+    display: none;
 }

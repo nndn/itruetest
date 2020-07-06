@@ -109,6 +109,8 @@
 
     margin-right: auto;
     margin-left: auto;
+
+    margin-top: 0px;
 }
 
 .row1 {
@@ -133,7 +135,7 @@
     }
 
     .images {
-        margin-top: 20px;
+        margin-top: 0px;
         grid-row-start: 2;
         grid-row-end: 3;
     }

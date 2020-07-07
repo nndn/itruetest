@@ -102,10 +102,11 @@
 }
 
 .images {
-    max-width: 300px;
+    max-width: 500px;
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
+    width: 100%;
 
     margin-right: auto;
     margin-left: auto;
@@ -115,12 +116,12 @@
 .row1 {
     display: grid;
     grid-template-columns: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
     width: 100%;
 
     padding: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -148,6 +149,10 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .images {
+        max-width: 300px;
+    }
     
     .heading {
         font-size: 1.5em;

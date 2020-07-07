@@ -176,6 +176,11 @@
         margin-left: 10px;
     }
 
+    .webinar-list{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
 }
 
 .webinar:hover {

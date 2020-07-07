@@ -70,6 +70,7 @@
 
 .no-touch {
   pointer-events: none;
+  touch-action: none;
 }
 
 @media screen and (max-width:500px){

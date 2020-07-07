@@ -6,12 +6,13 @@
     display: grid;
     height: 100%;
     width: 100%;
-    color: #5F4B8BFF;
+    color: #5F4B8B;
     color: white;
     background-color: rgba(95,75,139,0.7);
     background-color: rgba(256,256,256,0.2);
     background-color: rgba(230,154,141,0.7);
     background-color: #34495e77;
+    background-color: rgba(52,73,94,0.6);
     color: white;
 }
 
@@ -210,7 +211,7 @@
 .webinar{
 
     background: linear-gradient(rgba(256,256,256,0.2),rgba(256,256,256,1));
-    background: linear-gradient(45deg,#34495e,rgba(0, 121, 161, 0.521),#34495e,#ffffff44);
+    background: linear-gradient(45deg,#34495e,rgba(0, 121, 161, 0.521),#34495e,rgba(256,256,256,0.3));
 
     background-size: 1000% 100%;
     animation: backhover2 4s linear infinite;

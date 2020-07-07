@@ -126,7 +126,7 @@ body {
 
 .current {
     background-color: white;
-    color: #A8D5BAFF;
+    color: #A8D5BA;
 }
 
 .sub-nav {
@@ -169,7 +169,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: rgba(0, 0, 0, 0.7);
-    background-color: #A8D5BAFF;
+    background-color: #A8D5BA;
     max-height: 400px;
     color: white;
 }
@@ -336,7 +336,7 @@ body {
     grid-row-end: 4;
     background: transparent;
     margin-top: 0px;
-    background-color:  #f1c40133;
+    background-color:  rgba(241,196,1,0.2);
 }
 
 .parallax-window {

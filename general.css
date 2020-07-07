@@ -168,11 +168,11 @@ body {
 
 .current {
     background-color: white;
-    color: #A8D5BAFF;
+    color: #A8D5BA;
 }
 
 .sub-nav:hover {
-    color: #A8D5BAFF;
+    color: #A8D5BA;
     background-color: rgba(256, 256, 256, 1);
 }
 

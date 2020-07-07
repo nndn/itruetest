@@ -160,13 +160,13 @@ body {
     pointer-events: all;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #A8D5BAFF;
+    background-color: #A8D5BA;
     max-height: 400px;
     color: white;
 }
 
 .sub-nav:hover {
-    color: #A8D5BAFF;
+    color: #A8D5BA;
     background-color: white;
 }
 

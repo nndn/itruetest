@@ -3,7 +3,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #00bffe;
+    background-color: #34495e;
 }
 
 .header {
@@ -12,7 +12,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #00bffe;
+    background-color: #34495e;
     color: white;
     width: 100%;
     z-index: 5;
@@ -306,7 +306,7 @@ body {
 
 .background-img {
     background-color: gray;
-    background-color: #88888893;
+    background-color: #34495e;
     width: 100%;
 
     margin-top: auto;

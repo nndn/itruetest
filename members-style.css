@@ -2,7 +2,7 @@
 body {
     display: grid;
     grid-template-rows: 95px auto auto auto;
-    background-color: #00bffe;
+    background-color: #34495e;
     
 }
 
@@ -12,7 +12,7 @@ body {
     grid-template-columns: 2fr 5fr;
     grid-template-rows: auto;
     padding: 10px;
-    background-color: #00bffe;
+    background-color: #34495e;
     color: white;
     width: 100%;
 }

@@ -1,4 +1,6 @@
 
+$('body').addClass('no-touch');
+
 state = 0
 
 $('.expand-icon').on('click',function(){
@@ -24,4 +26,5 @@ $('.expand-icon').on('click',function(){
 $(window).on('load',function(){
     console.log('loaded');
     $('.loading').addClass('hidden');
+    $('body').removeClass('no-touch');
 });

@@ -68,6 +68,10 @@
   cursor: pointer;
 }
 
+.no-touch {
+  pointer-events: none;
+}
+
 @media screen and (max-width:500px){
     
     .header {

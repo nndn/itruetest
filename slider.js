@@ -1,6 +1,11 @@
 $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {
+
+    if($('.posters-large').length == 1){
+        return;
+    }
+
     $('#slideshow > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('#slideshow');
 },6000);
 
@@ -17,14 +22,28 @@ $('.close').on('click',function(){
 });
 
 $('.poster-large').on('click',function(){
+
+    if($('.posters-large').length == 1){
+        return;
+    }
+
     $('.posters-large > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.posters-large');
 });
 
 $('#next').on('click',function(){
+
+    if($('.posters-large').length == 1){
+        return;
+    }
+
     $('.posters-large > div:first').fadeOut(500).next().fadeIn(500).end().appendTo('.posters-large');
 });
 
 $('#prev').on('click',function(){
+
+    if($('.posters-large').length == 1){
+        return;
+    }
 
     for(i=2;i<$('.poster-large').length;i++)
     {

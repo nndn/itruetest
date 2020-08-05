@@ -846,6 +846,11 @@ body {
     cursor: pointer;
 }
 
+.event-title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 @media screen and (max-width: 500px) {
 
     .collapsible {

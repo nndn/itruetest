@@ -26,3 +26,19 @@
     background-color: #c0bca8;
     color: #1f4068;
 }
+
+@media screen and (max-width:500px) {
+
+    .comp-title {
+        color: white;
+    }
+
+    .expand {
+        background-color: #1f4068;
+    }
+
+    .nav-bar{
+        background-color: #1f4068;
+    }
+
+}

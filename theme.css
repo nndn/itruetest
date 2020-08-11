@@ -1,0 +1,26 @@
+.header {
+    background-color: #0d47a1;
+}
+
+.collapsible {
+    background-color: #0d47a1;
+}
+
+.copyright {
+    background-color: #0d47a1;
+}
+
+.loading {
+    background-color: #607D8B;
+}
+
+.sub-nav {
+    background-color: #607D8B;
+
+    transition: background-color .2s ease-in-out;
+}
+
+.sub-nav:hover {
+    background-color: #57707c;
+    color: white;
+}

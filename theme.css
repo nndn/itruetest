@@ -67,11 +67,23 @@ body {
     transition: background-color .2s ease-in-out;
 
     color: #1f4068;
+
+    background-color: #1f4068;
+    color: #e3dfc8;
+
 }
 
 .sub-nav:hover {
     background-color: #c0bca8;
     color: #1f4068;
+
+    background-color: rgb(18, 45, 78);
+    color: #e3dfc8;
+
+}
+
+.social-icon {
+    Box-shadow:0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.6);
 }
 
 .nav {
@@ -114,6 +126,7 @@ body {
     .header {
         grid-template-rows: auto;
         grid-template-columns: auto auto;
+
     }
 
     .nav-bar {

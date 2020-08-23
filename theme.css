@@ -1,13 +1,60 @@
+
+body {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+}
+
+.main {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
 .header {
     background-color: #1f4068;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    height: fit-content;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.headerLogo {
+    min-height: 50px;
+    max-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: auto;
+}
+
+.comp-title {
+    font-size: smaller;
+    max-width: 250px;
 }
 
 .collapsible {
     background-color: #1f4068;
+    grid-template-columns: 1fr;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.social {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 .copyright {
     background-color: #1f4068;
+    padding: 10px;
+    font-size: small;
 }
 
 .loading {
@@ -27,6 +74,60 @@
     color: #1f4068;
 }
 
+.nav {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: auto;
+    font-weight: normal;
+    font-size: medium;
+    border-radius: 15px;
+
+    transition: 
+        Box-shadow .2s ease-in-out,
+        font-size .2s ease-in-out;
+
+}
+
+.nav:hover {
+    Box-shadow:0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.6);
+    border-radius: 25px;
+}
+
+.nav:hover .sub-navbar {
+    background-color: transparent;
+}
+
+.sub-navbar {
+    margin-top: 0px;
+    padding-top: 55px;
+}
+
+.nav-bar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .header {
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+    }
+
+    .nav-bar {
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+} 
+
 @media screen and (max-width:500px) {
 
     .comp-title {
@@ -44,6 +145,10 @@
 
     .copyright {
         font-size: smaller;
+    }
+
+    .sub-navbar {
+        margin-top: 30px;
     }
 
 }

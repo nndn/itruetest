@@ -281,19 +281,6 @@ body {
         grid-template-rows: 150px auto auto auto;
     }
 
-    .nav-bar {
-        grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    }
-
-    .sub-navbar {
-        margin-top: 30px;
-    }
-
-    .nav {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -315,16 +302,12 @@ body {
         grid-template-columns: 1.5fr 1fr 1fr 1fr;
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start:2 ;
-        grid-row-end: 3;
         margin: auto;
     }
 
     .header {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5fr auto;
-        position: relative;
-        max-height: 220px;
     }
 
     .logo {

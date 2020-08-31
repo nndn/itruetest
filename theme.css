@@ -140,11 +140,7 @@ body {
 @media screen and (max-width:500px) {
 
     .header {
-        grid-template-columns:  80% 20%;
-    }
-
-    .headerLogo {
-        min-height: 30px;
+        grid-template-columns:  85% 15%;
     }
 
     .comp-title {

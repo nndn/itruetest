@@ -140,7 +140,7 @@ body {
 @media screen and (max-width:500px) {
 
     .header {
-        grid-template-columns:  auto auto;
+        grid-template-columns:  80% 20%;
     }
 
     .headerLogo {
@@ -149,7 +149,6 @@ body {
 
     .comp-title {
         color: white;
-        font-size: x-small;
         margin-left: 8px;
         padding-left: 8px;
     }
@@ -163,7 +162,11 @@ body {
 
         margin-top: auto;
         margin-bottom: auto;
-        padding: 10px;
+        padding: 5px;
+
+        max-width: fit-content;
+        margin-left: auto;
+
     }
 
     .nav-bar{

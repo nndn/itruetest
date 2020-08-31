@@ -143,13 +143,15 @@ body {
         grid-template-columns:  auto auto;
     }
 
+    .headerLogo {
+        min-height: 30px;
+    }
+
     .comp-title {
         color: white;
         font-size: x-small;
-    }
-
-    .logo {
-        margin-left: 10px;
+        margin-left: 8px;
+        padding-left: 8px;
     }
 
     .expand {

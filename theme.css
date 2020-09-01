@@ -189,6 +189,13 @@ body {
         padding: 5px;
     }
 
+    .nav:hover {
+        box-shadow: none;
+        z-index: 11;
+
+        font-size: larger;
+    }
+
     .first {
         border-top: solid 1px gray;
     }
@@ -198,9 +205,10 @@ body {
     }
 
     .sub-navbar {
-        padding-top: 70px;
-        margin-top: -10px;
+        z-index: 10;
+        padding-top: 55px;
+        margin-top: -5px;
         Box-shadow:0 5px 10px rgba(0,0,0,0.5), 0 3px 3px rgba(0,0,0,0.6);
-    }
 
+    }
 }

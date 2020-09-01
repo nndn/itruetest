@@ -17,7 +17,7 @@ body {
     padding: 0px;
     height: fit-content;
 
-    Box-shadow:0 5px 10px rgba(0,0,0,0.3), 0 3px 3px rgba(0,0,0,0.3);
+    Box-shadow:0 3px 5px rgba(0,0,0,0.3), 0 3px 3px rgba(0,0,0,0.3);
 }
 
 
@@ -124,6 +124,11 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 20px;
+
+    transition: 
+        margin .5s linear,
+        opacity .5s ease-in-out,
+        max-height .5s linear;
 }
 
 @media screen and (max-width:1000px) {
@@ -189,7 +194,6 @@ body {
         margin-right: 0px;
         margin-left: 0px;
         grid-template-rows: 1fr 1fr;
-        padding-bottom: 0px;
     }
 
     .nav {

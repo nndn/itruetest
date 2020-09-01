@@ -2,6 +2,7 @@
 body {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr;
+    width: 100%;
 }
 
 .main {
@@ -158,6 +159,10 @@ body {
         padding-bottom: 10px;
     }
 
+    .social-icon {
+        Box-shadow:0 2px 5px rgba(0,0,0,0.3), 0 3px 3px rgba(0,0,0,0.3);
+    }
+
     .expand {
         background-color: #1f4068;
         grid-row-start: 1;
@@ -191,8 +196,9 @@ body {
 
     .nav:hover {
         box-shadow: none;
-        z-index: 11;
+    }
 
+    .sub-inc:hover {
         font-size: larger;
     }
 
@@ -205,10 +211,9 @@ body {
     }
 
     .sub-navbar {
-        z-index: 10;
         padding-top: 55px;
         margin-top: -5px;
         Box-shadow:0 5px 10px rgba(0,0,0,0.5), 0 3px 3px rgba(0,0,0,0.6);
-
+        font-size: smaller;
     }
 }

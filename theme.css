@@ -16,7 +16,10 @@ body {
     top: 0;
     padding: 0px;
     height: fit-content;
+
+    Box-shadow:0 5px 10px rgba(0,0,0,0.3), 0 3px 3px rgba(0,0,0,0.3);
 }
+
 
 .logo {
     padding: 5px;
@@ -50,6 +53,10 @@ body {
 
     margin-right: auto;
     margin-top: 10px;
+}
+
+.social-icon {
+    Box-shadow:0 2px 5px rgba(0,0,0,0.3), 0 3px 3px rgba(0,0,0,0.3);
 }
 
 .copyright {
@@ -157,10 +164,6 @@ body {
 
     .social {
         padding-bottom: 10px;
-    }
-
-    .social-icon {
-        Box-shadow:0 2px 5px rgba(0,0,0,0.3), 0 3px 3px rgba(0,0,0,0.3);
     }
 
     .expand {

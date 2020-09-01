@@ -126,9 +126,13 @@ body {
     margin-right: 20px;
 
     transition: 
-        margin .5s linear,
+        margin .75s ease-in-out,
         opacity .5s ease-in-out,
         max-height .5s linear;
+}
+
+.loading {
+    touch-action: none;
 }
 
 @media screen and (max-width:1000px) {

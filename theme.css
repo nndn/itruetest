@@ -129,8 +129,8 @@ body {
     grid-template-columns: 1fr;
 
     transition: 
-        margin .5s linear,
-        opacity .5s ease-in-out,
+        padding .5s linear,
+        opacity .6s ease-in-out,
         max-height .5s linear;
 }
 

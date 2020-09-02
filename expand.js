@@ -31,4 +31,5 @@ $(window).on('load',function(){
     console.log('loaded');
     $('.loading').addClass('hidden');
     $('body').removeClass('no-touch');
+    $('.headerLogo').css('transform','translateY(0px)');
 });

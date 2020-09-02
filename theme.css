@@ -191,12 +191,10 @@ body {
         max-width: fit-content;
         margin-left: auto;
 
-        transition: transform .5s ease-in-out;
-
     }
 
-    .expand:hover {
-        transform: rotateX(180deg);
+    .expand-icon {
+        transition: transform .5s ease-in-out;
     }
 
     .headerLogo {

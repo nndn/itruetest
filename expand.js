@@ -6,6 +6,7 @@ state = 0
 $('.expand-icon').on('click',function(){
 
     if(state==0){
+        $('.expand-icon').css('transform','rotateX(360deg)');
         $('.nav-bar').css('max-height','200px');
         $('.nav-bar').css('padding-bottom','15px');
         $('.nav-bar').css('opacity','1');
@@ -16,6 +17,7 @@ $('.expand-icon').on('click',function(){
     }
     
     if(state==1){
+        $('.expand-icon').css('transform','rotateX(0deg)');
         $('.nav-bar').css('max-height','0px');
         $('.nav-bar').css('padding-bottom','0px');
         $('.nav-bar').css('opacity','0');

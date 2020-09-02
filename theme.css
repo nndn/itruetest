@@ -126,8 +126,6 @@ body {
     margin-bottom: 0px;
     margin-right: 20px;
 
-    grid-template-columns: 1fr;
-
     transition: 
         padding .5s linear,
         opacity .6s ease-in-out,
@@ -172,6 +170,7 @@ body {
 
     .collapsible {
         max-height: fit-content;
+        Box-shadow:0 0px 10px rgba(0,0,0,1);
     }
 
     .social {
@@ -201,6 +200,7 @@ body {
         margin-right: 0px;
         margin-left: 0px;
         grid-template-rows: 1fr 1fr;
+
     }
 
     .nav {

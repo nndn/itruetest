@@ -33,5 +33,6 @@ $(window).on('load',function(){
     console.log('loaded');
     $('.loading').addClass('hidden');
     $('body').removeClass('no-touch');
-    $('.headerLogo').css('transform','translateY(0px)');
+    $('.logo').css('transform','translateY(0px)');
+    $('.expand').css('transform','translateX(0px)');
 });

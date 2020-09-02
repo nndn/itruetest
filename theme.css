@@ -194,11 +194,16 @@ body {
     }
 
     .expand-icon {
-        transition: transform .5s ease-in-out;
+        transition: transform .75s ease-in-out;
     }
 
-    .headerLogo {
-        transition: transform .5s ease-in-out;
+    .expand {
+        transition: transform .75s ease-in-out;
+        transform: translateX(100px);
+    }
+
+    .logo {
+        transition: transform .75s ease-in-out;
         transform: translateY(-50px);
     }
 

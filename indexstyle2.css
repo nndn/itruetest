@@ -933,8 +933,3 @@ body {
 .headerLogo {
     min-width: 100px;
 }
-
-.event {
-    bottom: auto;
-    top: 60px;
-}

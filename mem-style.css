@@ -308,9 +308,7 @@ body {
     background: transparent;
     width: 100%;
     padding: auto;
-    background-color: rgba(80, 21, 117, 0.2);
-    background-color: #34495e33;
-    background-color: rgba(52,73,94,0.2);
+    background-color: rgb(31, 64, 104,0.5);
 }
 
 .profile {
@@ -394,7 +392,7 @@ body {
     margin-bottom: 0px;
     max-width: 500px;
 
-    color: rgb(0, 140, 187);
+    color: #1f4068;
     background-color: white;
     border-top: solid 2px transparent;
     border-top-left-radius: 50px;

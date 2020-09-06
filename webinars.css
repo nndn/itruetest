@@ -6,13 +6,8 @@
     display: grid;
     height: 100%;
     width: 100%;
-    color: #5F4B8B;
     color: white;
-    background-color: rgba(95,75,139,0.7);
-    background-color: rgba(256,256,256,0.2);
-    background-color: rgba(230,154,141,0.7);
-    background-color: #34495e77;
-    background-color: rgba(52,73,94,0.6);
+    background-color: rgba(31, 64, 104,0.8);
     color: white;
 }
 

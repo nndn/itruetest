@@ -1,16 +1,13 @@
+
 .content {
     background-color: transparent;
     color: black;
 }
 
 .heading {
-    font-size: 4em;
-    font-weight: 700;
-
-    -webkit-text-stroke: 1px white;
-    color: rgba(31, 64, 104,0.5);
-
-    text-shadow:0 3px 4px rgba(0,0,0,0.2);
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #1f4068;
 }
 
 .event {
@@ -24,4 +21,16 @@
 
 .register-button {
     padding-bottom: 10px;
+}
+
+.paragraphs {
+    color: #1f4068;
+}
+
+.content {
+    background-color: rgb(255, 255, 255,0);
+}
+
+.main1 {
+    background-color: rgba(231, 231, 231, 0.637);
 }

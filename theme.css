@@ -130,6 +130,8 @@ body {
     margin-bottom: 0px;
     margin-right: 20px;
 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+
     transition: 
         padding .5s linear,
         opacity .6s ease-in-out,
@@ -149,7 +151,7 @@ body {
     }
 
     .nav-bar {
-        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1.5fr 1fr 1fr;
         grid-column-start: 2;
         grid-column-end: 3;
     }

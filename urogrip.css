@@ -1,7 +1,7 @@
 
 .background-img {
     background-color: white;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
 }
 
@@ -15,4 +15,13 @@
     Box-shadow:0 0px 10px rgba(0,0,0,0.2);
     border-radius: 10px;
     max-width: 400px;
+}
+
+#zoom-img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.name {
+    font-size: x-large;
 }

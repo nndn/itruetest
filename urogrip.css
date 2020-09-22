@@ -1,13 +1,14 @@
 
 .background-img {
-    background-color: white;
-    height: 100vh;
-    width: 100%;
+    background-color: white; 
+    padding-top: 20px;
 }
 
 #urogrip-img-cont {
-    margin: auto;
+    margin-left: auto;
     width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #urogrip-img {
@@ -18,10 +19,106 @@
 }
 
 #zoom-img {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 100px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#zoom-img:hover {
+    Box-shadow:0 0px 10px rgba(0,0,0,0.2);
+}
+
+.platform-heading {
+    margin: auto;
+    margin-right: 10px;
+    font-style: italic;
 }
 
 .name {
-    font-size: x-large;
+    font-size: 3em;
+}
+
+.speaker-image {
+    max-width: 100px;
+    border-radius: 100px;
+}
+
+.urogrip-cont {
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: auto auto;
+    width: fit-content;
+}
+
+.talk-details {
+    margin-right: auto;
+    padding: 20px;
+}
+
+.date {
+    font-size: 1.5em;
+}
+
+.timing-cont {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.time {
+    padding: 8px;
+    margin-right: 5px;
+    background-color: #1f4068;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.platform {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.contents {
+    width: fit-content;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topic {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.talk {
+    display: grid;
+}
+
+.speaker {
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-top: 15px;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.speaker-image {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.talk {
+    padding: 15px;
+    border-top: solid 2px #1f4068;
 }

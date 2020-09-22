@@ -123,6 +123,7 @@ body {
 .sub-navbar {
     margin-top: 0px;
     padding-top: 55px;
+
 }
 
 .nav-bar {
@@ -131,6 +132,7 @@ body {
     margin-right: 20px;
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+
 
     transition: 
         padding .5s linear,

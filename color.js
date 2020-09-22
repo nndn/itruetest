@@ -37,6 +37,8 @@ $('.prev').on('click',function(){
     $('.header').css("background-color",color1[i]);
     $('.collapsible').css("background-color",color1[i]);
     $('.footer').css("background-color",color1[i]);
+    $('.copyright').css("background-color",color1[i]);
+    $('.main').css("background-color",color1[i]);
 
     $('#ip:text').val(color1[i]);
     
@@ -49,5 +51,7 @@ $('.apply').on('click',function(){
     $('.header').css("background-color",col);
     $('.collapsible').css("background-color",col);
     $('.footer').css("background-color",col);
+    $('.copyright').css("background-color",color1[i]);
+    $('.main').css("background-color",color1[i]);
     
 });

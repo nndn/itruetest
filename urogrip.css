@@ -155,6 +155,8 @@
     .timing-cont {
         grid-template-columns: 1fr;
         margin-top: 5px;
+        width: fit-content;
+        margin-right: auto;
     }
 
     .time {

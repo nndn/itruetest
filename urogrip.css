@@ -129,3 +129,22 @@
 .speaker-info {
     font-style: italic;
 }
+
+@media screen and (max-width:500px) {
+
+    .urogrip-cont {
+        grid-template-columns: 1fr;
+    }
+
+    #urogrip-img-cont {
+        margin-right: auto;
+    }
+
+    .speakers {
+        grid-template-columns: 1fr;
+    }
+
+    .speakers .speaker {
+        margin-bottom: 20px;
+    }
+}

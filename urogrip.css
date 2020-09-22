@@ -144,6 +144,10 @@
         grid-template-columns: 1fr;
     }
 
+    .speaker {
+        grid-template-columns: 120px auto;
+    }
+
     .speakers .speaker {
         margin-bottom: 20px;
     }

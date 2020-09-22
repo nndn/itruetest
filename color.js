@@ -51,7 +51,7 @@ $('.apply').on('click',function(){
     $('.header').css("background-color",col);
     $('.collapsible').css("background-color",col);
     $('.footer').css("background-color",col);
-    $('.copyright').css("background-color",color1[i]);
-    $('.main').css("background-color",color1[i]);
+    $('.copyright').css("background-color",col);
+    $('.main').css("background-color",col);
     
 });
